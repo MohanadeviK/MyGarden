@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31F27992071D6230098872A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F27982071D6230098872A /* AppDelegate.swift */; };
+		D31F279B2071D6230098872A /* PlantDashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F279A2071D6230098872A /* PlantDashBoardViewController.swift */; };
+		D31F279E2071D6230098872A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31F279C2071D6230098872A /* Main.storyboard */; };
+		D31F27A02071D6230098872A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31F279F2071D6230098872A /* Assets.xcassets */; };
+		D31F27A32071D6230098872A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31F27A12071D6230098872A /* LaunchScreen.storyboard */; };
+		D31F27AE2071D6230098872A /* MyGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F27AD2071D6230098872A /* MyGardenTests.swift */; };
+		D31F27B92071D6230098872A /* MyGardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F27B82071D6230098872A /* MyGardenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31F27AA2071D6230098872A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31F278D2071D6230098872A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31F27942071D6230098872A;
+			remoteInfo = MyGarden;
+		};
+		D31F27B52071D6230098872A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31F278D2071D6230098872A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31F27942071D6230098872A;
+			remoteInfo = MyGarden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31F27952071D6230098872A /* MyGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F27982071D6230098872A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D31F279A2071D6230098872A /* PlantDashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDashBoardViewController.swift; sourceTree = "<group>"; };
+		D31F279D2071D6230098872A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31F279F2071D6230098872A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31F27A22071D6230098872A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D31F27A42071D6230098872A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31F27A92071D6230098872A /* MyGardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F27AD2071D6230098872A /* MyGardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenTests.swift; sourceTree = "<group>"; };
+		D31F27AF2071D6230098872A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31F27B42071D6230098872A /* MyGardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31F27B82071D6230098872A /* MyGardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGardenUITests.swift; sourceTree = "<group>"; };
+		D31F27BA2071D6230098872A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31F27922071D6230098872A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27A62071D6230098872A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27B12071D6230098872A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D31F278C2071D6230098872A = {
+			isa = PBXGroup;
+			children = (
+				D31F27972071D6230098872A /* MyGarden */,
+				D31F27AC2071D6230098872A /* MyGardenTests */,
+				D31F27B72071D6230098872A /* MyGardenUITests */,
+				D31F27962071D6230098872A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D31F27962071D6230098872A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31F27952071D6230098872A /* MyGarden.app */,
+				D31F27A92071D6230098872A /* MyGardenTests.xctest */,
+				D31F27B42071D6230098872A /* MyGardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31F27972071D6230098872A /* MyGarden */ = {
+			isa = PBXGroup;
+			children = (
+				D31F27982071D6230098872A /* AppDelegate.swift */,
+				D31F279A2071D6230098872A /* PlantDashBoardViewController.swift */,
+				D31F279C2071D6230098872A /* Main.storyboard */,
+				D31F279F2071D6230098872A /* Assets.xcassets */,
+				D31F27A12071D6230098872A /* LaunchScreen.storyboard */,
+				D31F27A42071D6230098872A /* Info.plist */,
+			);
+			path = MyGarden;
+			sourceTree = "<group>";
+		};
+		D31F27AC2071D6230098872A /* MyGardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31F27AD2071D6230098872A /* MyGardenTests.swift */,
+				D31F27AF2071D6230098872A /* Info.plist */,
+			);
+			path = MyGardenTests;
+			sourceTree = "<group>";
+		};
+		D31F27B72071D6230098872A /* MyGardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D31F27B82071D6230098872A /* MyGardenUITests.swift */,
+				D31F27BA2071D6230098872A /* Info.plist */,
+			);
+			path = MyGardenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D31F27942071D6230098872A /* MyGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F27BD2071D6230098872A /* Build configuration list for PBXNativeTarget "MyGarden" */;
+			buildPhases = (
+				D31F27912071D6230098872A /* Sources */,
+				D31F27922071D6230098872A /* Frameworks */,
+				D31F27932071D6230098872A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyGarden;
+			productName = MyGarden;
+			productReference = D31F27952071D6230098872A /* MyGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31F27A82071D6230098872A /* MyGardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F27C02071D6230098872A /* Build configuration list for PBXNativeTarget "MyGardenTests" */;
+			buildPhases = (
+				D31F27A52071D6230098872A /* Sources */,
+				D31F27A62071D6230098872A /* Frameworks */,
+				D31F27A72071D6230098872A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31F27AB2071D6230098872A /* PBXTargetDependency */,
+			);
+			name = MyGardenTests;
+			productName = MyGardenTests;
+			productReference = D31F27A92071D6230098872A /* MyGardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31F27B32071D6230098872A /* MyGardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31F27C32071D6230098872A /* Build configuration list for PBXNativeTarget "MyGardenUITests" */;
+			buildPhases = (
+				D31F27B02071D6230098872A /* Sources */,
+				D31F27B12071D6230098872A /* Frameworks */,
+				D31F27B22071D6230098872A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31F27B62071D6230098872A /* PBXTargetDependency */,
+			);
+			name = MyGardenUITests;
+			productName = MyGardenUITests;
+			productReference = D31F27B42071D6230098872A /* MyGardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31F278D2071D6230098872A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Devi;
+				TargetAttributes = {
+					D31F27942071D6230098872A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D31F27A82071D6230098872A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D31F27942071D6230098872A;
+					};
+					D31F27B32071D6230098872A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D31F27942071D6230098872A;
+					};
+				};
+			};
+			buildConfigurationList = D31F27902071D6230098872A /* Build configuration list for PBXProject "MyGarden" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31F278C2071D6230098872A;
+			productRefGroup = D31F27962071D6230098872A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31F27942071D6230098872A /* MyGarden */,
+				D31F27A82071D6230098872A /* MyGardenTests */,
+				D31F27B32071D6230098872A /* MyGardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31F27932071D6230098872A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F27A32071D6230098872A /* LaunchScreen.storyboard in Resources */,
+				D31F27A02071D6230098872A /* Assets.xcassets in Resources */,
+				D31F279E2071D6230098872A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27A72071D6230098872A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27B22071D6230098872A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31F27912071D6230098872A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F279B2071D6230098872A /* PlantDashBoardViewController.swift in Sources */,
+				D31F27992071D6230098872A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27A52071D6230098872A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F27AE2071D6230098872A /* MyGardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31F27B02071D6230098872A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31F27B92071D6230098872A /* MyGardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31F27AB2071D6230098872A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31F27942071D6230098872A /* MyGarden */;
+			targetProxy = D31F27AA2071D6230098872A /* PBXContainerItemProxy */;
+		};
+		D31F27B62071D6230098872A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31F27942071D6230098872A /* MyGarden */;
+			targetProxy = D31F27B52071D6230098872A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D31F279C2071D6230098872A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31F279D2071D6230098872A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D31F27A12071D6230098872A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31F27A22071D6230098872A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D31F27BB2071D6230098872A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D31F27BC2071D6230098872A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31F27BE2071D6230098872A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31F27BF2071D6230098872A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D31F27C12071D6230098872A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGarden.app/MyGarden";
+			};
+			name = Debug;
+		};
+		D31F27C22071D6230098872A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGarden.app/MyGarden";
+			};
+			name = Release;
+		};
+		D31F27C42071D6230098872A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGarden;
+			};
+			name = Debug;
+		};
+		D31F27C52071D6230098872A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyGarden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31F27902071D6230098872A /* Build configuration list for PBXProject "MyGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F27BB2071D6230098872A /* Debug */,
+				D31F27BC2071D6230098872A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F27BD2071D6230098872A /* Build configuration list for PBXNativeTarget "MyGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F27BE2071D6230098872A /* Debug */,
+				D31F27BF2071D6230098872A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F27C02071D6230098872A /* Build configuration list for PBXNativeTarget "MyGardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F27C12071D6230098872A /* Debug */,
+				D31F27C22071D6230098872A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31F27C32071D6230098872A /* Build configuration list for PBXNativeTarget "MyGardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31F27C42071D6230098872A /* Debug */,
+				D31F27C52071D6230098872A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31F278D2071D6230098872A /* Project object */;
+}
